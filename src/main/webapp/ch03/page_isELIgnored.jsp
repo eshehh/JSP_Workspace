@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=utf-8"%>
-<%@ page isELIgnored="true"%>
+<%@ page isELIgnored="false"%>
 <html>
 <head>
 <title>Directives Tag</title>
