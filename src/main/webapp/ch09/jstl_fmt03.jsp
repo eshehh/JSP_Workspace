@@ -5,6 +5,7 @@
 <title>Internationalization</title>
 </head>
 <body>
+	 9장에서는 날짜만
 	<p> <jsp:useBean id="now" class="java.util.Date" />
 	<p> <fmt:formatDate value="${now}" type="date" />
 	<p> <fmt:formatDate value="${now}" type="time" />
