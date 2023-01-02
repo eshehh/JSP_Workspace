@@ -7,12 +7,12 @@
 </head>
 <body>
 	<sql:setDataSource var="dataSource"
-		url="jdbc:mysql://localhost:3306/JSPBookDB"
-		driver="com.mysql.jdbc.Driver" user="root" password="1234" />
+		url="jdbc:mysql://localhost:3306/webmarketdb"
+		driver="com.mysql.jdbc.Driver" user="root" password="k404" />
 
 
 	<sql:query var="resultSet" dataSource="${dataSource}">
-		select * from member
+		select * from member2
 	</sql:query>
 
 	<table border="1">
